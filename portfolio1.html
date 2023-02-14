@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Portfolio</title>
+        <link rel="icon" type="image/x-icon" href="Icon/favicon.ico">
+        <link rel="stylesheet" href="Portfolio1.css">
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?
+        family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/
+        css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/
+        9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    </head>
+    
+    <body>
+ <!------ Home ------>      
+
+        <section class="main" id="main">
+
+            <div class="navigation">
+
+                <header>
+                    <div>
+                        <h2>WANGUI</h2>
+                    </div>
+
+                    <nav>
+                        <div class="spc">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </div>
+
+                        <ul class="navigate">
+                            <li><a href="portfolio1.html">Home</a></li>
+                            <li><a href="#about-me">About</a></li>
+                            <li><a href="#skills">Skills</a></li>
+                            <li class="btn"><a href="mailto:wanguielizabeth138@gmail.com">contact</a></li>
+                    </nav>
+                </header>
+
+                <div class="content">
+                    
+                    <div class="main-text">
+
+                        <h2>Hello!</h2>
+                        <h1>I Am <span>Elizabeth Wangui.</span></h1>
+                        <p>I want to use my skills and knowledge to make other people's jobs easier and more productive while providing solutions for users’ problems.</p>
+                                             
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+<!------ About ------> 
+
+<section class="about-me" id="about-me" >
+    <h1> About Me</h1>
+       
+    <br>
+        <!-- Slideshow container -->
+    <div class="container">
+
+        <div class="about" style="text-align: center; justify-content: center;">
+            
+            <p>
+                I,m currently a student at Machakos University, pursuing a bachelors degree in Computer Science. 
+                <br>
+                I'm interested in software engineering and cyber security but currently learning software development.
+                <br>
+                I am eager to apply my knowledge and skills to real-world projects and learn from experienced developers.
+            </p>
+           
+        </div>
+
+        <br>
+    
+        <div class="slideshow-container">
+
+            <!-- Full-width images with number and caption text -->
+            <div class="mySlides fade">
+            <div class="numbertext">1 / 3</div>
+            <img src="Picture/IMG4.jpg" style="width:80%">
+            </div>
+        
+            <div class="mySlides fade">
+            <div class="numbertext">2 / 3</div>
+            <img src="Picture/IMG2.jpg" style="width:80%">
+            </div>
+        
+            <div class="mySlides fade">
+            <div class="numbertext">3 / 3</div>
+            <img src="Picture/IMG1.jpg" style="width:80%">
+            </div>
+        
+        </div>
+    
+    </div>  
+</section>
+
+<!------ Skills ------> 
+
+<section class="skills" id="skills">
+    <h1>My Skills</h1>
+    <p> 
+        I,m currently still learning, but here are some of my skills.
+    </p>
+
+    <div class="row">
+        <div class="skill-col">
+            <h3> Skills </h3>
+            <p>
+                Programming Languages: Python, C, Java <br>
+                Web Technologies: HTML, CSS, JavaScript, Bootstrap <br>
+                Databases: MySQL <br>
+                IDEs: Visual Studio Code <br>
+                Operating System: Windows, Linux
+            </p>
+        </div>
+        <div class="skill-col">
+           <h3> Project </h3>
+            <p> 
+                Fashion project that incorporates VR technology. <br>
+                It entails headsets, 3D model of customers and clothes. 
+            </p> 
+        </div>
+        <div class="skill-col">
+              <h3> Experience </h3>
+            <p>
+                IT intern: it entailed much of networking. <br>
+                
+            </p>
+                           
+        </div>
+
+    </div>
+
+<!------ Icons ------> 
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<h2>Below are various links to my various accounts.</h2>
+
+<a href="https://github.com/Waruguru78" class="fa fa-github"></a>
+<a href="https://twitter.com/Elizabe69322062" class="fa fa-twitter"></a>
+<a href="https://www.linkedin.com/in/elizabeth-wangui-27232a230/" class="fa fa-linkedin"></a>
+<a href="https://www.instagram.com/kimaruliz/" class="fa fa-instagram"></a>
+<a href="https://api.whatsapp.com/send?phone=0713109986&text=Hello this is the starting message"style="display: table; font-family: sans-serif; text-decoration: none; margin: 1em auto; color: #fff; font-size: 0.9em; padding: 1em 2em 1em 3.5em; border-radius: 2em; font-weight: bold; background: #25d366 url('https://tochat.be/click-to-chat-directory/css/whatsapp.svg') no-repeat 1.5em center; background-size: 1.6em;">Contact on WhatsApp</a>
+            
+</section>
+
+
+<!------ Footer ------> 
+
+        <div class="footer">
+
+             <p>
+               &copy; 2023 Elizabeth - All Rights Reserved.
+            </p>
+        </div>
+
+        
+     <script>
+        let slideIndex = 0;
+        showSlides();
+
+        function showSlides() {
+        let i;
+        let slides = document.getElementsByClassName("mySlides");
+        for (i = 0; i < slides.length; i++) {
+            slides[i].style.display = "none";
+        }
+        slideIndex++;
+        if (slideIndex > slides.length) {slideIndex = 1}
+        slides[slideIndex-1].style.display = "block";
+        setTimeout(showSlides, 2000); // Change image every 2 seconds
+        }
+     </script>   
+    </body>
+</html>
